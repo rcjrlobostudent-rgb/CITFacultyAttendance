@@ -31,7 +31,7 @@ function App() {
   const [keyLookupUsername, setKeyLookupUsername] = useState('');
   const [keyLookupPassword, setKeyLookupPassword] = useState('');
 
-  const API_URL = 'https://citfacultyattendance.onrender.com';
+  const API_URL = 'https://citfacultyattendance.onrender.com/api';
 
   useEffect(() => {
     fetchRecords();
